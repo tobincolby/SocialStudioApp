@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2FECBB1C797F49000B28B0 /* StudioPeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2FECBA1C797F49000B28B0 /* StudioPeerViewController.m */; };
+		EE2FECBD1C797F6B000B28B0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2FECBC1C797F6B000B28B0 /* MediaPlayer.framework */; };
+		EE2FECC01C7B57CC000B28B0 /* StudioHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2FECBF1C7B57CC000B28B0 /* StudioHostViewController.m */; };
+		EE2FECC21C7D6904000B28B0 /* Studio Load Screen OFFICIAL.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECC11C7D6904000B28B0 /* Studio Load Screen OFFICIAL.png */; };
+		EE2FECC41C7D6A30000B28B0 /* Studio App Icon OFFICIAL.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECC31C7D6A30000B28B0 /* Studio App Icon OFFICIAL.png */; };
+		EE2FECE71C7D71DE000B28B0 /* frame_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECC91C7D71DE000B28B0 /* frame_0.gif */; };
+		EE2FECE81C7D71DE000B28B0 /* frame_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECCA1C7D71DE000B28B0 /* frame_1.gif */; };
+		EE2FECE91C7D71DE000B28B0 /* frame_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECCB1C7D71DE000B28B0 /* frame_2.gif */; };
+		EE2FECEA1C7D71DE000B28B0 /* frame_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECCC1C7D71DE000B28B0 /* frame_3.gif */; };
+		EE2FECEB1C7D71DE000B28B0 /* frame_4.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECCD1C7D71DE000B28B0 /* frame_4.gif */; };
+		EE2FECEC1C7D71DE000B28B0 /* frame_5.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECCE1C7D71DE000B28B0 /* frame_5.gif */; };
+		EE2FECED1C7D71DE000B28B0 /* frame_6.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECCF1C7D71DE000B28B0 /* frame_6.gif */; };
+		EE2FECEE1C7D71DE000B28B0 /* frame_7.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD01C7D71DE000B28B0 /* frame_7.gif */; };
+		EE2FECEF1C7D71DE000B28B0 /* frame_8.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD11C7D71DE000B28B0 /* frame_8.gif */; };
+		EE2FECF01C7D71DE000B28B0 /* frame_9.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD21C7D71DE000B28B0 /* frame_9.gif */; };
+		EE2FECF11C7D71DE000B28B0 /* frame_10.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD31C7D71DE000B28B0 /* frame_10.gif */; };
+		EE2FECF21C7D71DE000B28B0 /* frame_11.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD41C7D71DE000B28B0 /* frame_11.gif */; };
+		EE2FECF31C7D71DE000B28B0 /* frame_12.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD51C7D71DE000B28B0 /* frame_12.gif */; };
+		EE2FECF41C7D71DE000B28B0 /* frame_13.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD61C7D71DE000B28B0 /* frame_13.gif */; };
+		EE2FECF51C7D71DE000B28B0 /* frame_14.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD71C7D71DE000B28B0 /* frame_14.gif */; };
+		EE2FECF61C7D71DE000B28B0 /* frame_15.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD81C7D71DE000B28B0 /* frame_15.gif */; };
+		EE2FECF71C7D71DE000B28B0 /* frame_16.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECD91C7D71DE000B28B0 /* frame_16.gif */; };
+		EE2FECF81C7D71DE000B28B0 /* frame_17.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECDA1C7D71DE000B28B0 /* frame_17.gif */; };
+		EE2FECF91C7D71DE000B28B0 /* frame_18.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECDB1C7D71DE000B28B0 /* frame_18.gif */; };
+		EE2FECFA1C7D71DE000B28B0 /* frame_19.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECDC1C7D71DE000B28B0 /* frame_19.gif */; };
+		EE2FECFB1C7D71DE000B28B0 /* frame_20.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECDD1C7D71DE000B28B0 /* frame_20.gif */; };
+		EE2FECFC1C7D71DE000B28B0 /* frame_21.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECDE1C7D71DE000B28B0 /* frame_21.gif */; };
+		EE2FECFD1C7D71DE000B28B0 /* frame_22.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECDF1C7D71DE000B28B0 /* frame_22.gif */; };
+		EE2FECFE1C7D71DE000B28B0 /* frame_23.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECE01C7D71DE000B28B0 /* frame_23.gif */; };
+		EE2FECFF1C7D71DE000B28B0 /* frame_24.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECE11C7D71DE000B28B0 /* frame_24.gif */; };
+		EE2FED001C7D71DE000B28B0 /* frame_25.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECE21C7D71DE000B28B0 /* frame_25.gif */; };
+		EE2FED011C7D71DE000B28B0 /* frame_26.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECE31C7D71DE000B28B0 /* frame_26.gif */; };
+		EE2FED021C7D71DE000B28B0 /* frame_27.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECE41C7D71DE000B28B0 /* frame_27.gif */; };
+		EE2FED031C7D71DE000B28B0 /* frame_28.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECE51C7D71DE000B28B0 /* frame_28.gif */; };
+		EE2FED041C7D71DE000B28B0 /* frame_29.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE2FECE61C7D71DE000B28B0 /* frame_29.gif */; };
+		EE52875C1C74BE3B00A77552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52875B1C74BE3B00A77552 /* main.m */; };
+		EE52875F1C74BE3B00A77552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52875E1C74BE3B00A77552 /* AppDelegate.m */; };
+		EE5287621C74BE3B00A77552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5287611C74BE3B00A77552 /* ViewController.m */; };
+		EE5287651C74BE3B00A77552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5287631C74BE3B00A77552 /* Main.storyboard */; };
+		EE5287671C74BE3C00A77552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5287661C74BE3C00A77552 /* Assets.xcassets */; };
+		EE52876A1C74BE3C00A77552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5287681C74BE3C00A77552 /* LaunchScreen.storyboard */; };
+		EE5287751C74BE3C00A77552 /* Social_StudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5287741C74BE3C00A77552 /* Social_StudioTests.m */; };
+		EE5287801C74BE3C00A77552 /* Social_StudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52877F1C74BE3C00A77552 /* Social_StudioUITests.m */; };
+		EE52878F1C74BFBE00A77552 /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52878E1C74BFBE00A77552 /* HostViewController.m */; };
+		EE5287921C74CB0F00A77552 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5287911C74CB0F00A77552 /* JoinViewController.m */; };
+		EE5287991C74CCFC00A77552 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5287981C74CCFC00A77552 /* MultipeerConnectivity.framework */; };
+		EE5CEC911CB55BEE008023FC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5CEC901CB55BEE008023FC /* WebViewController.m */; };
+		EE6000741CA2E2AE00200DB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6000731CA2E2AE00200DB0 /* AVFoundation.framework */; };
+		EEE626AA1C7760690005042C /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE626A91C7760690005042C /* MCManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE5287711C74BE3C00A77552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE52874F1C74BE3B00A77552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5287561C74BE3B00A77552;
+			remoteInfo = "Social Studio";
+		};
+		EE52877C1C74BE3C00A77552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE52874F1C74BE3B00A77552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5287561C74BE3B00A77552;
+			remoteInfo = "Social Studio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2FECB91C797F49000B28B0 /* StudioPeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudioPeerViewController.h; sourceTree = "<group>"; };
+		EE2FECBA1C797F49000B28B0 /* StudioPeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudioPeerViewController.m; sourceTree = "<group>"; };
+		EE2FECBC1C797F6B000B28B0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EE2FECBE1C7B57CC000B28B0 /* StudioHostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudioHostViewController.h; sourceTree = "<group>"; };
+		EE2FECBF1C7B57CC000B28B0 /* StudioHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudioHostViewController.m; sourceTree = "<group>"; };
+		EE2FECC11C7D6904000B28B0 /* Studio Load Screen OFFICIAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Studio Load Screen OFFICIAL.png"; sourceTree = "<group>"; };
+		EE2FECC31C7D6A30000B28B0 /* Studio App Icon OFFICIAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Studio App Icon OFFICIAL.png"; sourceTree = "<group>"; };
+		EE2FECC91C7D71DE000B28B0 /* frame_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_0.gif; path = studioEqualizerFrames/frame_0.gif; sourceTree = "<group>"; };
+		EE2FECCA1C7D71DE000B28B0 /* frame_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_1.gif; path = studioEqualizerFrames/frame_1.gif; sourceTree = "<group>"; };
+		EE2FECCB1C7D71DE000B28B0 /* frame_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_2.gif; path = studioEqualizerFrames/frame_2.gif; sourceTree = "<group>"; };
+		EE2FECCC1C7D71DE000B28B0 /* frame_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_3.gif; path = studioEqualizerFrames/frame_3.gif; sourceTree = "<group>"; };
+		EE2FECCD1C7D71DE000B28B0 /* frame_4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_4.gif; path = studioEqualizerFrames/frame_4.gif; sourceTree = "<group>"; };
+		EE2FECCE1C7D71DE000B28B0 /* frame_5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_5.gif; path = studioEqualizerFrames/frame_5.gif; sourceTree = "<group>"; };
+		EE2FECCF1C7D71DE000B28B0 /* frame_6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_6.gif; path = studioEqualizerFrames/frame_6.gif; sourceTree = "<group>"; };
+		EE2FECD01C7D71DE000B28B0 /* frame_7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_7.gif; path = studioEqualizerFrames/frame_7.gif; sourceTree = "<group>"; };
+		EE2FECD11C7D71DE000B28B0 /* frame_8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_8.gif; path = studioEqualizerFrames/frame_8.gif; sourceTree = "<group>"; };
+		EE2FECD21C7D71DE000B28B0 /* frame_9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_9.gif; path = studioEqualizerFrames/frame_9.gif; sourceTree = "<group>"; };
+		EE2FECD31C7D71DE000B28B0 /* frame_10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_10.gif; path = studioEqualizerFrames/frame_10.gif; sourceTree = "<group>"; };
+		EE2FECD41C7D71DE000B28B0 /* frame_11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_11.gif; path = studioEqualizerFrames/frame_11.gif; sourceTree = "<group>"; };
+		EE2FECD51C7D71DE000B28B0 /* frame_12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_12.gif; path = studioEqualizerFrames/frame_12.gif; sourceTree = "<group>"; };
+		EE2FECD61C7D71DE000B28B0 /* frame_13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_13.gif; path = studioEqualizerFrames/frame_13.gif; sourceTree = "<group>"; };
+		EE2FECD71C7D71DE000B28B0 /* frame_14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_14.gif; path = studioEqualizerFrames/frame_14.gif; sourceTree = "<group>"; };
+		EE2FECD81C7D71DE000B28B0 /* frame_15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_15.gif; path = studioEqualizerFrames/frame_15.gif; sourceTree = "<group>"; };
+		EE2FECD91C7D71DE000B28B0 /* frame_16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_16.gif; path = studioEqualizerFrames/frame_16.gif; sourceTree = "<group>"; };
+		EE2FECDA1C7D71DE000B28B0 /* frame_17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_17.gif; path = studioEqualizerFrames/frame_17.gif; sourceTree = "<group>"; };
+		EE2FECDB1C7D71DE000B28B0 /* frame_18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_18.gif; path = studioEqualizerFrames/frame_18.gif; sourceTree = "<group>"; };
+		EE2FECDC1C7D71DE000B28B0 /* frame_19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_19.gif; path = studioEqualizerFrames/frame_19.gif; sourceTree = "<group>"; };
+		EE2FECDD1C7D71DE000B28B0 /* frame_20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_20.gif; path = studioEqualizerFrames/frame_20.gif; sourceTree = "<group>"; };
+		EE2FECDE1C7D71DE000B28B0 /* frame_21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_21.gif; path = studioEqualizerFrames/frame_21.gif; sourceTree = "<group>"; };
+		EE2FECDF1C7D71DE000B28B0 /* frame_22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_22.gif; path = studioEqualizerFrames/frame_22.gif; sourceTree = "<group>"; };
+		EE2FECE01C7D71DE000B28B0 /* frame_23.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_23.gif; path = studioEqualizerFrames/frame_23.gif; sourceTree = "<group>"; };
+		EE2FECE11C7D71DE000B28B0 /* frame_24.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_24.gif; path = studioEqualizerFrames/frame_24.gif; sourceTree = "<group>"; };
+		EE2FECE21C7D71DE000B28B0 /* frame_25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_25.gif; path = studioEqualizerFrames/frame_25.gif; sourceTree = "<group>"; };
+		EE2FECE31C7D71DE000B28B0 /* frame_26.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_26.gif; path = studioEqualizerFrames/frame_26.gif; sourceTree = "<group>"; };
+		EE2FECE41C7D71DE000B28B0 /* frame_27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_27.gif; path = studioEqualizerFrames/frame_27.gif; sourceTree = "<group>"; };
+		EE2FECE51C7D71DE000B28B0 /* frame_28.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_28.gif; path = studioEqualizerFrames/frame_28.gif; sourceTree = "<group>"; };
+		EE2FECE61C7D71DE000B28B0 /* frame_29.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = frame_29.gif; path = studioEqualizerFrames/frame_29.gif; sourceTree = "<group>"; };
+		EE5287571C74BE3B00A77552 /* Social Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE52875B1C74BE3B00A77552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE52875D1C74BE3B00A77552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE52875E1C74BE3B00A77552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE5287601C74BE3B00A77552 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE5287611C74BE3B00A77552 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE5287641C74BE3B00A77552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE5287661C74BE3C00A77552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE5287691C74BE3C00A77552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE52876B1C74BE3C00A77552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5287701C74BE3C00A77552 /* Social StudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social StudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5287741C74BE3C00A77552 /* Social_StudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Social_StudioTests.m; sourceTree = "<group>"; };
+		EE5287761C74BE3C00A77552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE52877B1C74BE3C00A77552 /* Social StudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social StudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE52877F1C74BE3C00A77552 /* Social_StudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Social_StudioUITests.m; sourceTree = "<group>"; };
+		EE5287811C74BE3C00A77552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE52878D1C74BFBE00A77552 /* HostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostViewController.h; sourceTree = "<group>"; };
+		EE52878E1C74BFBE00A77552 /* HostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostViewController.m; sourceTree = "<group>"; };
+		EE5287901C74CB0F00A77552 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
+		EE5287911C74CB0F00A77552 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
+		EE5287981C74CCFC00A77552 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		EE5CEC8F1CB55BEE008023FC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		EE5CEC901CB55BEE008023FC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EE6000731CA2E2AE00200DB0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EEE626A81C7760690005042C /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		EEE626A91C7760690005042C /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE5287541C74BE3B00A77552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6000741CA2E2AE00200DB0 /* AVFoundation.framework in Frameworks */,
+				EE2FECBD1C797F6B000B28B0 /* MediaPlayer.framework in Frameworks */,
+				EE5287991C74CCFC00A77552 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52876D1C74BE3C00A77552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5287781C74BE3C00A77552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2FED051C7D71F8000B28B0 /* equalizer */ = {
+			isa = PBXGroup;
+			children = (
+				EE2FECC91C7D71DE000B28B0 /* frame_0.gif */,
+				EE2FECCA1C7D71DE000B28B0 /* frame_1.gif */,
+				EE2FECCB1C7D71DE000B28B0 /* frame_2.gif */,
+				EE2FECCC1C7D71DE000B28B0 /* frame_3.gif */,
+				EE2FECCD1C7D71DE000B28B0 /* frame_4.gif */,
+				EE2FECCE1C7D71DE000B28B0 /* frame_5.gif */,
+				EE2FECCF1C7D71DE000B28B0 /* frame_6.gif */,
+				EE2FECD01C7D71DE000B28B0 /* frame_7.gif */,
+				EE2FECD11C7D71DE000B28B0 /* frame_8.gif */,
+				EE2FECD21C7D71DE000B28B0 /* frame_9.gif */,
+				EE2FECD31C7D71DE000B28B0 /* frame_10.gif */,
+				EE2FECD41C7D71DE000B28B0 /* frame_11.gif */,
+				EE2FECD51C7D71DE000B28B0 /* frame_12.gif */,
+				EE2FECD61C7D71DE000B28B0 /* frame_13.gif */,
+				EE2FECD71C7D71DE000B28B0 /* frame_14.gif */,
+				EE2FECD81C7D71DE000B28B0 /* frame_15.gif */,
+				EE2FECD91C7D71DE000B28B0 /* frame_16.gif */,
+				EE2FECDA1C7D71DE000B28B0 /* frame_17.gif */,
+				EE2FECDB1C7D71DE000B28B0 /* frame_18.gif */,
+				EE2FECDC1C7D71DE000B28B0 /* frame_19.gif */,
+				EE2FECDD1C7D71DE000B28B0 /* frame_20.gif */,
+				EE2FECDE1C7D71DE000B28B0 /* frame_21.gif */,
+				EE2FECDF1C7D71DE000B28B0 /* frame_22.gif */,
+				EE2FECE01C7D71DE000B28B0 /* frame_23.gif */,
+				EE2FECE11C7D71DE000B28B0 /* frame_24.gif */,
+				EE2FECE21C7D71DE000B28B0 /* frame_25.gif */,
+				EE2FECE31C7D71DE000B28B0 /* frame_26.gif */,
+				EE2FECE41C7D71DE000B28B0 /* frame_27.gif */,
+				EE2FECE51C7D71DE000B28B0 /* frame_28.gif */,
+				EE2FECE61C7D71DE000B28B0 /* frame_29.gif */,
+			);
+			name = equalizer;
+			sourceTree = "<group>";
+		};
+		EE52874E1C74BE3B00A77552 = {
+			isa = PBXGroup;
+			children = (
+				EE5287591C74BE3B00A77552 /* Social Studio */,
+				EE5287731C74BE3C00A77552 /* Social StudioTests */,
+				EE52877E1C74BE3C00A77552 /* Social StudioUITests */,
+				EE5287581C74BE3B00A77552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE5287581C74BE3B00A77552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5287571C74BE3B00A77552 /* Social Studio.app */,
+				EE5287701C74BE3C00A77552 /* Social StudioTests.xctest */,
+				EE52877B1C74BE3C00A77552 /* Social StudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE5287591C74BE3B00A77552 /* Social Studio */ = {
+			isa = PBXGroup;
+			children = (
+				EE52875D1C74BE3B00A77552 /* AppDelegate.h */,
+				EE52875E1C74BE3B00A77552 /* AppDelegate.m */,
+				EE5287601C74BE3B00A77552 /* ViewController.h */,
+				EE5287611C74BE3B00A77552 /* ViewController.m */,
+				EE5287631C74BE3B00A77552 /* Main.storyboard */,
+				EE2FECB91C797F49000B28B0 /* StudioPeerViewController.h */,
+				EE2FECBA1C797F49000B28B0 /* StudioPeerViewController.m */,
+				EE5287901C74CB0F00A77552 /* JoinViewController.h */,
+				EE5287911C74CB0F00A77552 /* JoinViewController.m */,
+				EE5287661C74BE3C00A77552 /* Assets.xcassets */,
+				EE5287681C74BE3C00A77552 /* LaunchScreen.storyboard */,
+				EE52876B1C74BE3C00A77552 /* Info.plist */,
+				EE52875A1C74BE3B00A77552 /* Supporting Files */,
+				EE52878D1C74BFBE00A77552 /* HostViewController.h */,
+				EE52878E1C74BFBE00A77552 /* HostViewController.m */,
+				EEE626A81C7760690005042C /* MCManager.h */,
+				EEE626A91C7760690005042C /* MCManager.m */,
+				EE2FECBE1C7B57CC000B28B0 /* StudioHostViewController.h */,
+				EE2FECBF1C7B57CC000B28B0 /* StudioHostViewController.m */,
+				EE5CEC8F1CB55BEE008023FC /* WebViewController.h */,
+				EE5CEC901CB55BEE008023FC /* WebViewController.m */,
+			);
+			path = "Social Studio";
+			sourceTree = "<group>";
+		};
+		EE52875A1C74BE3B00A77552 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE6000731CA2E2AE00200DB0 /* AVFoundation.framework */,
+				EE2FED051C7D71F8000B28B0 /* equalizer */,
+				EE2FECC31C7D6A30000B28B0 /* Studio App Icon OFFICIAL.png */,
+				EE2FECC11C7D6904000B28B0 /* Studio Load Screen OFFICIAL.png */,
+				EE2FECBC1C797F6B000B28B0 /* MediaPlayer.framework */,
+				EE5287981C74CCFC00A77552 /* MultipeerConnectivity.framework */,
+				EE52875B1C74BE3B00A77552 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE5287731C74BE3C00A77552 /* Social StudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE5287741C74BE3C00A77552 /* Social_StudioTests.m */,
+				EE5287761C74BE3C00A77552 /* Info.plist */,
+			);
+			path = "Social StudioTests";
+			sourceTree = "<group>";
+		};
+		EE52877E1C74BE3C00A77552 /* Social StudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE52877F1C74BE3C00A77552 /* Social_StudioUITests.m */,
+				EE5287811C74BE3C00A77552 /* Info.plist */,
+			);
+			path = "Social StudioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE5287561C74BE3B00A77552 /* Social Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5287841C74BE3C00A77552 /* Build configuration list for PBXNativeTarget "Social Studio" */;
+			buildPhases = (
+				EE5287531C74BE3B00A77552 /* Sources */,
+				EE5287541C74BE3B00A77552 /* Frameworks */,
+				EE5287551C74BE3B00A77552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social Studio";
+			productName = "Social Studio";
+			productReference = EE5287571C74BE3B00A77552 /* Social Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE52876F1C74BE3C00A77552 /* Social StudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5287871C74BE3C00A77552 /* Build configuration list for PBXNativeTarget "Social StudioTests" */;
+			buildPhases = (
+				EE52876C1C74BE3C00A77552 /* Sources */,
+				EE52876D1C74BE3C00A77552 /* Frameworks */,
+				EE52876E1C74BE3C00A77552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE5287721C74BE3C00A77552 /* PBXTargetDependency */,
+			);
+			name = "Social StudioTests";
+			productName = "Social StudioTests";
+			productReference = EE5287701C74BE3C00A77552 /* Social StudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE52877A1C74BE3C00A77552 /* Social StudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE52878A1C74BE3C00A77552 /* Build configuration list for PBXNativeTarget "Social StudioUITests" */;
+			buildPhases = (
+				EE5287771C74BE3C00A77552 /* Sources */,
+				EE5287781C74BE3C00A77552 /* Frameworks */,
+				EE5287791C74BE3C00A77552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE52877D1C74BE3C00A77552 /* PBXTargetDependency */,
+			);
+			name = "Social StudioUITests";
+			productName = "Social StudioUITests";
+			productReference = EE52877B1C74BE3C00A77552 /* Social StudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE52874F1C74BE3B00A77552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Social Studio";
+				TargetAttributes = {
+					EE5287561C74BE3B00A77552 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W4356N7638;
+					};
+					EE52876F1C74BE3C00A77552 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EE5287561C74BE3B00A77552;
+					};
+					EE52877A1C74BE3C00A77552 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EE5287561C74BE3B00A77552;
+					};
+				};
+			};
+			buildConfigurationList = EE5287521C74BE3B00A77552 /* Build configuration list for PBXProject "Social Studio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE52874E1C74BE3B00A77552;
+			productRefGroup = EE5287581C74BE3B00A77552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5287561C74BE3B00A77552 /* Social Studio */,
+				EE52876F1C74BE3C00A77552 /* Social StudioTests */,
+				EE52877A1C74BE3C00A77552 /* Social StudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE5287551C74BE3B00A77552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2FECE91C7D71DE000B28B0 /* frame_2.gif in Resources */,
+				EE2FED001C7D71DE000B28B0 /* frame_25.gif in Resources */,
+				EE52876A1C74BE3C00A77552 /* LaunchScreen.storyboard in Resources */,
+				EE2FECF01C7D71DE000B28B0 /* frame_9.gif in Resources */,
+				EE2FECFE1C7D71DE000B28B0 /* frame_23.gif in Resources */,
+				EE5287671C74BE3C00A77552 /* Assets.xcassets in Resources */,
+				EE2FECF71C7D71DE000B28B0 /* frame_16.gif in Resources */,
+				EE2FECEB1C7D71DE000B28B0 /* frame_4.gif in Resources */,
+				EE2FECE81C7D71DE000B28B0 /* frame_1.gif in Resources */,
+				EE2FECEA1C7D71DE000B28B0 /* frame_3.gif in Resources */,
+				EE2FECFD1C7D71DE000B28B0 /* frame_22.gif in Resources */,
+				EE2FECED1C7D71DE000B28B0 /* frame_6.gif in Resources */,
+				EE2FECEC1C7D71DE000B28B0 /* frame_5.gif in Resources */,
+				EE2FED021C7D71DE000B28B0 /* frame_27.gif in Resources */,
+				EE5287651C74BE3B00A77552 /* Main.storyboard in Resources */,
+				EE2FECF61C7D71DE000B28B0 /* frame_15.gif in Resources */,
+				EE2FECFB1C7D71DE000B28B0 /* frame_20.gif in Resources */,
+				EE2FECFA1C7D71DE000B28B0 /* frame_19.gif in Resources */,
+				EE2FECEF1C7D71DE000B28B0 /* frame_8.gif in Resources */,
+				EE2FED011C7D71DE000B28B0 /* frame_26.gif in Resources */,
+				EE2FECE71C7D71DE000B28B0 /* frame_0.gif in Resources */,
+				EE2FED041C7D71DE000B28B0 /* frame_29.gif in Resources */,
+				EE2FECF21C7D71DE000B28B0 /* frame_11.gif in Resources */,
+				EE2FECF31C7D71DE000B28B0 /* frame_12.gif in Resources */,
+				EE2FECEE1C7D71DE000B28B0 /* frame_7.gif in Resources */,
+				EE2FECF51C7D71DE000B28B0 /* frame_14.gif in Resources */,
+				EE2FECFF1C7D71DE000B28B0 /* frame_24.gif in Resources */,
+				EE2FECF91C7D71DE000B28B0 /* frame_18.gif in Resources */,
+				EE2FECFC1C7D71DE000B28B0 /* frame_21.gif in Resources */,
+				EE2FED031C7D71DE000B28B0 /* frame_28.gif in Resources */,
+				EE2FECF81C7D71DE000B28B0 /* frame_17.gif in Resources */,
+				EE2FECF11C7D71DE000B28B0 /* frame_10.gif in Resources */,
+				EE2FECC41C7D6A30000B28B0 /* Studio App Icon OFFICIAL.png in Resources */,
+				EE2FECF41C7D71DE000B28B0 /* frame_13.gif in Resources */,
+				EE2FECC21C7D6904000B28B0 /* Studio Load Screen OFFICIAL.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52876E1C74BE3C00A77552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5287791C74BE3C00A77552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE5287531C74BE3B00A77552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE52878F1C74BFBE00A77552 /* HostViewController.m in Sources */,
+				EEE626AA1C7760690005042C /* MCManager.m in Sources */,
+				EE2FECC01C7B57CC000B28B0 /* StudioHostViewController.m in Sources */,
+				EE2FECBB1C797F49000B28B0 /* StudioPeerViewController.m in Sources */,
+				EE5CEC911CB55BEE008023FC /* WebViewController.m in Sources */,
+				EE5287621C74BE3B00A77552 /* ViewController.m in Sources */,
+				EE5287921C74CB0F00A77552 /* JoinViewController.m in Sources */,
+				EE52875F1C74BE3B00A77552 /* AppDelegate.m in Sources */,
+				EE52875C1C74BE3B00A77552 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52876C1C74BE3C00A77552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5287751C74BE3C00A77552 /* Social_StudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5287771C74BE3C00A77552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5287801C74BE3C00A77552 /* Social_StudioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE5287721C74BE3C00A77552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5287561C74BE3B00A77552 /* Social Studio */;
+			targetProxy = EE5287711C74BE3C00A77552 /* PBXContainerItemProxy */;
+		};
+		EE52877D1C74BE3C00A77552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5287561C74BE3B00A77552 /* Social Studio */;
+			targetProxy = EE52877C1C74BE3C00A77552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE5287631C74BE3B00A77552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5287641C74BE3B00A77552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE5287681C74BE3C00A77552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5287691C74BE3C00A77552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE5287821C74BE3C00A77552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE5287831C74BE3C00A77552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE5287851C74BE3C00A77552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Social Studio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.socialstudio.Social-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE5287861C74BE3C00A77552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Social Studio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.socialstudio.Social-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE5287881C74BE3C00A77552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Social StudioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.socialstudio.Social-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Studio.app/Social Studio";
+			};
+			name = Debug;
+		};
+		EE5287891C74BE3C00A77552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Social StudioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.socialstudio.Social-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Studio.app/Social Studio";
+			};
+			name = Release;
+		};
+		EE52878B1C74BE3C00A77552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Social StudioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.socialstudio.Social-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Social Studio";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE52878C1C74BE3C00A77552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Social StudioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.socialstudio.Social-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Social Studio";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE5287521C74BE3B00A77552 /* Build configuration list for PBXProject "Social Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5287821C74BE3C00A77552 /* Debug */,
+				EE5287831C74BE3C00A77552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5287841C74BE3C00A77552 /* Build configuration list for PBXNativeTarget "Social Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5287851C74BE3C00A77552 /* Debug */,
+				EE5287861C74BE3C00A77552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5287871C74BE3C00A77552 /* Build configuration list for PBXNativeTarget "Social StudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5287881C74BE3C00A77552 /* Debug */,
+				EE5287891C74BE3C00A77552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE52878A1C74BE3C00A77552 /* Build configuration list for PBXNativeTarget "Social StudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE52878B1C74BE3C00A77552 /* Debug */,
+				EE52878C1C74BE3C00A77552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE52874F1C74BE3B00A77552 /* Project object */;
+}
